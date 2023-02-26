@@ -2,18 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
         Box box1 = new Box();               // создаем объект класса Box, экземпляр класса
-        box1.height = 10;
-        box1.length = 10;
-        box1.width = 10;
+        box1.setDimens(10, 10, 10 ); //вызываем метод с параметрами
         box1.showVolume();                  // здесь используем метод, который ничего не возвращает(просто выводит на консоль)
 
 
         System.out.println("----------");
 
         Box box2 = new Box();               // создаем 2-й объект класса Box, экземпляр класса
-        box2.height = 9;
-        box2.length = 9;
-        box2.width = 9;
+        box2.setDimens(17, 16, 14 ); //вызываем метод с параметрами
         double volume2 = box2.getVolume();          //здесь возвращает тип double
         System.out.println(volume2);
 
@@ -48,9 +44,18 @@ public class Main {
         System.out.println(myPet.getMyDog());               // можно не создавать переменную, а сразу передать метод
         myPet.getRun();
 
+        System.out.println("----------");
+
+    Test test = new Test();
+        System.out.println(test.square(20));        //вызываем метод square(), в качестве параметра указывает любое число
 
         System.out.println("----------");
 
+   Rectangle rectangle = new Rectangle();
+   rectangle.setRectangleDimens(20,10);     //вызываем метод с параметрами
+        System.out.println(rectangle.rectangleArea());
+
+        System.out.println("----------");
 
     }
 }

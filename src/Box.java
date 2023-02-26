@@ -7,12 +7,17 @@ public class Box {
         return length * width * height;
     }
 
-   void showVolume(){                           // метод ничего не возвращает, а только вычисляет и выводит на консоль объем
-     double volume =  getVolume();              // один метод можно вызывать в другом
+   void showVolume() {                           // метод ничего не возвращает, а только вычисляет и выводит на консоль объем
+       double volume = getVolume();              // один метод можно вызывать в другом
        System.out.println(volume);
 
        // System.out.println(getVolume()); - еще можно сразу здесь вызвать метод, не создавая дополнит.перем.
+   }
+   void setDimens(double length,double width, double height) {
+    this.length = length;                                           //чтобы имена переменных не путались можно
+    this.width = width;                                             //использовать разные имена, например length1
+    this.height = height;                                           //или же ключевое слово this, чтобы локальные перем. и перем. класса не путались
 
    }
-
 }
+
