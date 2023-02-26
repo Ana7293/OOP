@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        Box box1 = new Box();               // создаем объект класса Box, экземпляр класса
-        box1.setDimens(10, 10, 10 ); //вызываем метод с параметрами
+        Box box1 = new Box();             //здесь параметры не указаны, поэтому данные заполняются из конструктора без параметров
+        //box1.setDimens(10, 10, 10 ); теперь этот метод не нужен, т.к.есть конструктор
         box1.showVolume();                  // здесь используем метод, который ничего не возвращает(просто выводит на консоль)
 
 
         System.out.println("----------");
 
-        Box box2 = new Box();               // создаем 2-й объект класса Box, экземпляр класса
-        box2.setDimens(17, 16, 14 ); //вызываем метод с параметрами
-        double volume2 = box2.getVolume();          //здесь возвращает тип double
+        Box box2 = new Box(17,16,15);               // создаем 2-й объект класса Box, экземпляр класса
+        //box2.setDimens(17, 16, 14 );                               // данный метод с параметрами уже не нужен
+        double volume2 = box2.getVolume();                          //здесь возвращает тип double
         System.out.println(volume2);
 
         System.out.println("----------");
@@ -56,6 +56,9 @@ public class Main {
         System.out.println(rectangle.rectangleArea());
 
         System.out.println("----------");
+
+       Worker worker = new Worker("Максим","инженер", 30_000);
+       worker.showInfo();
 
     }
 }
