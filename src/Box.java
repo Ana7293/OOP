@@ -4,16 +4,18 @@ public class Box {
     double height;
 
     Box(){             // создаем конструктор с параметрами
-        length = 10;
-        width = 10;
-        height = 10;
+        this(10);
     }
     Box(double length,double width, double height){             // создаем конструктор с параметрами
         this.length = length;
         this.width = width;
         this.height = height;
     }
-   double getVolume() {                         //   метод вычисляет объем и возвращает значение типа double
+   Box(double size) {                                           //конструктор, который создает куб
+       this(size, size,size);
+   }
+
+    double getVolume() {                         //   метод вычисляет объем и возвращает значение типа double
         return length * width * height;
     }
 

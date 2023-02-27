@@ -15,6 +15,11 @@ public class Main {
 
         System.out.println("----------");
 
+        Box box3 = new Box(5);                          //конструктор с параметром size
+        box3.showVolume();
+
+        System.out.println("----------");
+
         Human human1 = new Human();                     // создаем 3 объекта класса Human, экземпляр класса
         human1.name = "Василий";
         human1.age = 50;
@@ -59,6 +64,19 @@ public class Main {
 
        Worker worker = new Worker("Максим","инженер", 30_000);
        worker.showInfo();
+
+        System.out.println("----------");
+
+
+        System.out.println(MyMath.multiply(5));     //вызываем статический метод перегруженный (одно название, но различные параметры), ctrl+P - покажет все варианты перегрузки
+        System.out.println(Math.sqrt(144));            // вызываем метод класса Math
+
+        System.out.println("----------");
+
+        Monster monster = new Monster(7);
+        monster.getMonsterVoice(6, "Бууум!");
+
+
 
     }
 }

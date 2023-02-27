@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ab240f-82f4-4573-b764-a32d3acd5d2e" name="Changes" comment="Lesson2/16">
-      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+    <list default="true" id="c8ab240f-82f4-4573-b764-a32d3acd5d2e" name="Changes" comment="Lesson2/17">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyMath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -29,17 +31,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MBsFucR7D6E4DRiSYAzXmDAO7H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Lesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson" />
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677439852372</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson2/17">
+      <created>1677443223088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677443223088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +122,7 @@
     <MESSAGE value="Lesson2/14" />
     <MESSAGE value="Lesson2/15" />
     <MESSAGE value="Lesson2/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson2/16" />
+    <MESSAGE value="Lesson2/17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson2/17" />
   </component>
 </project>
