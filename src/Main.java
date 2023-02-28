@@ -76,7 +76,16 @@ public class Main {
         Monster monster = new Monster(7);
         monster.getMonsterVoice(6, "Бууум!");
 
+        System.out.println("----------");
 
+        Box current = new Box(10);
+        Box another = current.copy();                   // ключевое слово new указано внутри метода copy()
+        Box next = current.increase();
+        //current.setDimens(5,7,4);
+        //System.out.println(current.compare(another));
+        current.showVolume();
+        another.showVolume();
+        next.showVolume();
 
     }
 }
