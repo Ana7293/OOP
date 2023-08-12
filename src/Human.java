@@ -1,10 +1,12 @@
 public class Human {
-    private String name;
-    private int age;
+     String name;
+     int age;
+     double weight;
 
-    public Human(String name, int age) {
+   /* public Human(String name, int age, double weight) {
         this.name = name;
         this.age = age;
+        this.weight = weight;
     }
 
     public void setAge(int age) {
@@ -18,5 +20,5 @@ public class Human {
 
     public int getAge() {
         return age;
-    }
+    } */
 }

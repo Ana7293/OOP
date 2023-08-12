@@ -8,7 +8,7 @@ public class MyMath {
     public static double area(double radius) {
     return  PI * radius * radius;
     }
-    public static int sum(int... numbers) {         //метод возвращает сумму всех аргументов (... )
+    public static int sum(int... numbers) {         // метод возвращает сумму всех аргументов (... )
         int sum = 0;
         for (int number : numbers) {
             sum += number;

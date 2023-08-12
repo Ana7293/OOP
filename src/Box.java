@@ -1,9 +1,9 @@
 public class Box {
-    private double length;
-    private double width;
-    private double height;
+     double length;
+     double width;
+     double height;
 
-     public Box(){
+   /* public Box(){
         this(10);
     }
     public Box(double length,double width, double height){
@@ -17,23 +17,23 @@ public class Box {
     public Box (Box another) {
         this (another.length, another.width, another.height);
     }
+*/
 
-
-   private double getVolume() {                         //   метод вычисляет объем и возвращает значение типа double
+    double getVolume() {                         //   метод вычисляет объем и возвращает значение типа double
         return length * width * height;
     }
 
    public void showVolume() {
-       double volume = getVolume();
+       double volume = getVolume();  //прямо в новом методе вызываем метод ждя вычисление объема
        System.out.println(volume);
-
    }
+   /*
     public void setDimens(double length,double width, double height) {
         this.length = length;
         this.width = width;
         this.height = height;
     }
-       public int compare (Box another){
+    public int compare (Box another){
         double currentVolume = getVolume();
         double anotherVolume = another.getVolume();
       int result;
@@ -53,7 +53,7 @@ public class Box {
         public Box increase () {
         return new Box(length * 2, width * 2, height * 2);
     }
-
+*/
 
    }
 
