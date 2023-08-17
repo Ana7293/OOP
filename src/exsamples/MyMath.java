@@ -1,10 +1,12 @@
+package exsamples;
+
 public class MyMath {
 
-    public static final double PI = 3.14;
+    private static final double PI = 3.14;   //не изменяется
 
     public static double length(double radius) {
     return 2 * PI * radius;
-}
+} //радиус окружности
     public static double area(double radius) {
     return  PI * radius * radius;
     }
@@ -19,7 +21,7 @@ public class MyMath {
         return a * b;
     }
 
-    public static double multiply (double a, double b){               //перегрузка метода
+    public static  double multiply (double a, double b){               //перегрузка метода
         return a * b;
     }
     public static  int multiply (int a){

@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ab240f-82f4-4573-b764-a32d3acd5d2e" name="Changes" comment="Lesson2/21">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8ab240f-82f4-4573-b764-a32d3acd5d2e" name="Changes" comment="Lesson2/22">
+      <change afterPath="$PROJECT_DIR$/src/box/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exsamples/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/MyMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exsamples/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="OOP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677790028785</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson2/22">
+      <created>1691867308265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691867308265</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +170,7 @@
     <MESSAGE value="Lesson2/19" />
     <MESSAGE value="Lesson2/20" />
     <MESSAGE value="Lesson2/21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson2/21" />
+    <MESSAGE value="Lesson2/22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson2/22" />
   </component>
 </project>

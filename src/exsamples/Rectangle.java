@@ -1,3 +1,5 @@
+package exsamples;
+
 public class Rectangle {
     double rectangleLength;
     double rectangleWidth;

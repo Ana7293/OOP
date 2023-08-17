@@ -1,3 +1,5 @@
+package exsamples;
+
 public class Worker {
     String workerName;
     String workerState;

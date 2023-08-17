@@ -1,3 +1,5 @@
+package exsamples;
+
 public class Test {
     int square10(){                 // метод возвращает квадрат числа 10
         return 10 * 10;
